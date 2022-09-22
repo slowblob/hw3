@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="video" width="900" height="500">
+       <source src="night.mp4" type="video/mp4 ">
+       <source src="night.ogg" type="video/ogg">
+    </video>
+
+    <div id="buttons">
+        <button type="button" id="play">play</button>
+        <button type="button" id="pause">pause</button>
+        <button type="button" id="rewind"><<</button>
+        <button type="button" id="fastForward">>></button>
+        <input type="range" id="volume" value= "1" min="0" max="1" step="0.1">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

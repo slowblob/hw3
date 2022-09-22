@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+#buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+button{
+    width: fit-content;
+    height: 30px;
+    color: rgb(232, 232, 115);
+    background-color:rgba(19, 69, 100, 0.74);
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+#play{
+    border-radius: 50%;
+}
+#volume{
+    -webkit-appearance: none; 
+    appearance: none;
+    border-radius: 10%;
+    box-shadow: 3px 3px 5px 5px grey;
+    outline: none;
+    background:rgba(19, 69, 100, 0.74);
+}
+#volume::-webkit-slider-thumb{
+    -webkit-appearance: none; 
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgb(232, 232, 115);
+}
